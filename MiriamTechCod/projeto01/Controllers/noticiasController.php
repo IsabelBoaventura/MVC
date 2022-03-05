@@ -1,5 +1,6 @@
 <?php
-Class homeController extends Controller{
+Class noticiasController extends Controller{
+
     
     public function index(){
         // padrao www.nome.com/
@@ -16,7 +17,7 @@ Class homeController extends Controller{
         // 2) chama a view
         //  $this->carregarTemplate('home', $dados );
 
-        $this->carregarTemplate('home' );
+        $this->carregarTemplate('noticias' );
         // com dois parametros , nome_da_view e dados que é opcional
 
 

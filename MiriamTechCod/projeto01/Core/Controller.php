@@ -3,10 +3,14 @@
 Class Controller{
     public $dados;
 
+    public function __construct(){
+        $this->dados = array();
+    }
+
     //chamado por todos os CONTROLLERS
     public function carregarTemplate( $nomeView , $dadosModel = array() ){
         $this->dados = $dadosModel;
-        require 'views/template.php';
+        require 'Views/template.php';
     }
 
 
@@ -14,7 +18,7 @@ Class Controller{
     //Chamado no Template
     public function carregarViewNoTemplate( $nomeView ,  $dadosModel = array() ){
         extract( $dadosModel );
-        require 'views/' . $nomeView . '.php'; 
+        require 'Views/' . $nomeView . '.php'; 
     }
 
 
