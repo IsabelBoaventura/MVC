@@ -38,6 +38,7 @@ Reorganizando os Codigos para trazer das views a informação do home.
 Na apresentação não muda nada ( a nao ser o que manda apresentar ) , mas na forma que busca o codigo ai é que tem mudança.
 
 Passando as informações que serão apresentadas com variáveis:
+
 ![image](https://user-images.githubusercontent.com/1613816/156923274-cae23519-3576-4b83-9600-96c8d820e893.png)
 
 
