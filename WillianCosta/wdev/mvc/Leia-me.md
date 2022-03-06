@@ -31,6 +31,10 @@ Minha situação principal é fazer a parte de abrir varias páginas esta funcio
 
 ![image](https://user-images.githubusercontent.com/1613816/156920762-3abd386c-aa7b-4ada-ba53-939a4d3fe17c.png)
 
+Reorganizando os Codigos para trazer das views a informação do home.
 
+![image](https://user-images.githubusercontent.com/1613816/156922557-02a03ac2-f98e-4146-99a6-1bea7a9695f1.png)
+
+Na apresentação não muda nada ( a nao ser o que manda apresentar ) , mas na forma que busca o codigo ai é que tem mudança.
 
 
