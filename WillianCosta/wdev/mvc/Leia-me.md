@@ -25,3 +25,12 @@ Abrir o terminal do VS Code e instalar o composer: `composer install`;
 
 Na raiz do projeto criar o arquivo index .php 
 
+Seguindo o passo a passo dele em 6 minutos de video já temos o 'Ola Mundo' sendo apresentado na tela.
+
+Minha situação principal é fazer a parte de abrir varias páginas esta funcionando corretamente.
+
+![image](https://user-images.githubusercontent.com/1613816/156920762-3abd386c-aa7b-4ada-ba53-939a4d3fe17c.png)
+
+
+
+
