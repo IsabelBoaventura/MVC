@@ -30,12 +30,6 @@ Dentro da pasta 'App' criada a pasta 'Model';
 Para adicionar todos os modelos, todas as entidades , tudo o que cuida do negocio  ou da regra de negocio;
 
     App / Model / Entity / Organization.php
-    
-    
-Fnalizando!
-
-![image](https://user-images.githubusercontent.com/1613816/156936073-ae44189d-2627-4da3-bdbf-d6dca1f75dbf.png)
-
 
 
 
