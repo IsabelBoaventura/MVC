@@ -24,3 +24,13 @@ CREATE TABLE usuarios (
 );
 
 
+
+## htaccess
+
+Ao baixar o arquivo para o pc ( teste na empresa ) o arquivo '.htaccess' não apareceu, sendo necessário recriar:
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /mvc/index.php?pag=$1
+
