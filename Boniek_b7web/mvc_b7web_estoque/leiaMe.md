@@ -5,11 +5,12 @@ Criado por B7Web
     https://alunos.b7web.com.br/curso/lives/criando-um-sistema-de-estoque-ao-vivo
 
 ## Projeto
+
 Sistema de estoque
-    - Login Basico com Token
-    - Cadastro de Produtos ( Com busca por codigo ou nome );
-    - Relatório de Produtos;
-    - Tarefa Extra
+ - Login Basico com Token
+ - Cadastro de Produtos ( Com busca por codigo ou nome );
+ - Relatório de Produtos;
+ - Tarefa Extra
 
 Onde encontrar a base do Projeto:
 
