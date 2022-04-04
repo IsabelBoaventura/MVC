@@ -86,12 +86,19 @@ Criando o Models `Usuario.php` que será a primeira página no sistema;
 Endereço da pagina de login: `https://codepen.io/frytyler/pen/nJYVEO`
 
 Fazer login - ok 
+
 Mostrar produtos cadastrados - ok
+
 Cadstrar novo produto - ok 
+
 Editar produto ja cadastrado - ok 
+
 Deletar produto ( troca de status do produto de 'A' para 'E') - ok 
+
 Buscar produto ( por codigo e/ ou nome ) -  ok 
+
 Relatorio dos produtos a serem comprados - ok 
+
 
 
 
