@@ -103,8 +103,9 @@ Relatorio dos produtos a serem comprados - ok
 
 
 Fazer:
-    - validação se código ja existe;
-    - validar os campos quantidade,  nome, quantidade minima e preço;
+
+ - validação se código ja existe;
+ - validar os campos quantidade,  nome, quantidade minima e preço;
 
     HISTORICOS
      - Adicionar as vendas e criar o histórico do que aconteceu ;
