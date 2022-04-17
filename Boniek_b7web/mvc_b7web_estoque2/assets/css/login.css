@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(88, 54, 54);
+}
+
+.loginarea {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    height: 40px;
+    font-size: 13px ;
+}
+
+button[type=submit]{
+    background-color: rgb(128, 0, 255) ;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
