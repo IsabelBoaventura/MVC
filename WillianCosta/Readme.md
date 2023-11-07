@@ -20,11 +20,13 @@ Séries de vídeos de **WDEV** ensinando a estrutura MVC em PHP
 
 > Caminho absoluto  no meu pc: D:\documentos\Praticando\MVC\WillianCosta\wdev\projeto_01
 
-- :card_file_box: projeto_01
-	- :open_file_folder: app
-		- :open_file_folder: Controller
-			- :open_file_folder: Pages 
-				- :page_facing_up: 
+Criando o projeto
+
+:card_file_box: projeto_01
+	:open_file_folder: app
+		:open_file_folder: Controller
+			:open_file_folder: Pages 
+				:page_facing_up: 
 
 ## Aulas 
 
