@@ -33,12 +33,21 @@ Criando o projeto
 		- :open_file_folder: Controller
 			- :open_file_folder: Pages 
 				- :page_facing_up: Home.php 
-		- :open_file_folder: Utils 
+				- :page_facing_up: Page.php 
+				
+		- :open_file_folder: Utils
 			- :page_facing_up: View.php 
+			
+		- :open_file_folder: Model
+			- :open_file_folder: Entity 
+			
 	- :open_file_folder: resources
 		- :open_file_folder: View
-			- :open_file_folder: Pages
-				- :page_facing_up: Home.php 			
+			- :open_file_folder: Pages				
+				- :page_facing_up: Footer.html 
+				- :page_facing_up: Header.html
+				- :page_facing_up: Home.html
+				- :page_facing_up: Page.html
 
 ## Aulas 
 
@@ -160,7 +169,20 @@ O simples fato deu ter colocado o titulo como uma variavel e não como uma strin
 
 
 Acrescentar o Header e o Footer na página genérica.
-Criamos as Views 'Header.html' e 'footer.html'.
+Criamos as Views 'Header.html' e 'footer.html'. Associamos ao 'Page'. Foi apresentado na tela.
+
+Vamos criar o "MODEL" da aplicação. 
+Nesta pasta haverá todas as entidades que cuidam da regra de negócio e acesso ao banco.
+
+Criaremos a pasta "Entity", responsável pela representação das integrações com o banco de dados.
+
+Criado um arquivo temporário para a organização dos dados recebidos do banco "Organization.php"
+
+Nesta classe terá informações que esta simulando que pegou as informações do banco de dados. 
+
+Incluimos na Home a classe da organização. 
+
+Agora substitimos as informações que estavam estaticas na Home, pelas informaçãoes que venho do banco ( simulado) ; 
 
 
 
@@ -171,7 +193,12 @@ Criamos as Views 'Header.html' e 'footer.html'.
 
 
 
-parando em 12:23 de video 
+
+
+
+
+
+parando em 31 min de video 
 
 
 
