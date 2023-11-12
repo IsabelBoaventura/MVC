@@ -22,15 +22,41 @@ class View{
     /** 
      * Método responsável por retornar o conteudo renderizado de uma views  
      * @param string $view
+     * @param array $vars  ( string/number)
      * @return string 
     */
-    public  static function render( $view ){
+    public  static function render( $view , $vars = [] ){
 
         //variavel com o conteudo da view 
         $contentView = self::getContentView( $view);
 
+        // echo '<pre>';
+        // print_r( $vars);
+        // echo '</pre>';
+        // exit;
+
+        //descobrir o nome das variáveis ( indices da array )
+        $keys = array_keys( $vars );
+
+        // echo '<pre>';
+        // print_r($keys );
+        // echo '</pre>';
+        // exit;
+
+        //mapea os indices e adiciona os caracteres que escolhemos para ser marcadores de variáveis 
+
+        $keys = array_map( function ( $item){
+            return '{{'.$item.'}}';
+        }, $keys );
+
+     
+    //  echo '<pre>';
+    //     print_r($keys );
+    //     echo '</pre>';
+    //     exit;
+
         //retorna o conteudo renderizado 
-        return $contentView ;
+        return  str_replace( $keys, array_values($vars) , $contentView); //$contentView ;
 
     }
 

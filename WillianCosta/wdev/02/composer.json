@@ -1,9 +1,0 @@
-{
-    "name": "wdev/02",
-    "autoload": {
-        "psr-4":{
-            "App\\": "app/"
-        }
-    }
-
-}
