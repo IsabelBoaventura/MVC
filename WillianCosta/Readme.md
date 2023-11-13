@@ -34,6 +34,9 @@ Criando o projeto
 			- :open_file_folder: Pages 
 				- :page_facing_up: Home.php 
 				- :page_facing_up: Page.php 
+		- :open_file_folder: HTTP
+			- :page_facing_up: Request.php
+			- :page_facing_up: Response.php			
 				
 		- :open_file_folder: Utils
 			- :page_facing_up: View.php 
@@ -51,7 +54,7 @@ Criando o projeto
 
 ## Aulas 
 
-- [ ]  Parte 01: Conceito e Inicio do Projeto;
+- [x]  Parte 01: Conceito e Inicio do Projeto;
 - [ ]  Parte 02: Implementando um gerenciador de rotas;
 - [ ]  Parte 03: CRUD, paginação e variáveis de Ambiente;
 - [ ]  Parte 04: Conhecendo e implementando middlewares;
@@ -67,10 +70,14 @@ Criando o projeto
 ## Explicações
 
 
+
+
 MVC 
 Model
 View 
 Controller
+
+### Parte 01: Conceito e Inicio do Projeto;
 
 MVC é a divisão das responsabilidades da aplicação em tres partes; 
 
@@ -184,6 +191,26 @@ Incluimos na Home a classe da organização.
 
 Agora substitimos as informações que estavam estaticas na Home, pelas informaçãoes que venho do banco ( simulado) ; 
 
+Informações apresentadas corretamente.
+
+
+###  Parte 02: Implementando um gerenciador de rotas;
+
+
+Gerenciamento de rota
+
+Rota é o caminho que se deve percorrer para ir do ponto 'A' para o ponto 'B'. Em nossas aplicações é o caminho que se digita no navegador para <b>requisitar</b>  uma página. 
+
+A resposta da requisição pode variar a partir da rota,  e do método HTTP que fez a requisição;
+
+Métodos HTTP: DELETE, GET, PATCH, POST , PUT; 
+
+Vamos criar a classe de 'request' responsável por gerenciar as requisições do usuário; E a classe 'response' que será a resposta do sistema a partir da requisição. 
+
+Dentro da pasta 'app' será craiada a pasta 'http' e dentro da 'http' criaremos as classes 'request.php' e 'resposta.php';
+
+
+Criada as páginas e os métodos. Testado na pagina principal. 
 
 
 
@@ -198,7 +225,13 @@ Agora substitimos as informações que estavam estaticas na Home, pelas informa�
 
 
 
-parando em 31 min de video 
+
+
+
+
+
+
+parando no parte 2 em 31 min de video 
 
 
 
